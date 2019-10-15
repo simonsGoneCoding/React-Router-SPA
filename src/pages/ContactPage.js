@@ -33,7 +33,7 @@ class ContactPage extends React.Component {
           <button>Send</button>
         </form>
         <Prompt
-          when={this.state.value}
+          when={this.state.value} //empty string will give false and Prompt will not work
           message="Your form is not compleated! Do you really want to leave? "
         />
       </div>
