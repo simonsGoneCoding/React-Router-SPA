@@ -7,7 +7,7 @@ const ProductsPage = ({ match }) => {
     <>
       <div>Product Page</div>
       <Product id={match.params.id} />
-      <Link to="/products">Go back to products</Link>
+      <Link to="/products">Go back</Link>
     </>
   );
 };
